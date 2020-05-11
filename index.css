@@ -101,3 +101,54 @@ header {
   color: white;
   display: block;
 }
+.lesson-wrapper{
+  padding-bottom: 80px;
+  height: 500px;
+  text-align: center;
+background-color: #f7f7f7;
+}
+
+
+/* Add CSS for heading */
+.heading{
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color:#5f5d60;
+}
+
+
+/* Add CSS for <h2> tags inside heading */
+.heading > h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+/* Add CSS for lesson-icon */
+.lesson-icon{
+position:relative;
+
+}
+
+
+/* Add CSS for <p> tags inside lesson-icon */
+.lesson-icon > p{
+position:absolute;
+width: 100%;
+top: 90px;
+color: white;
+
+}
+
+
+/* Add CSS for txt-contents */
+.txt-contents{
+  display:inline-block;
+  font-size: 15px;
+  margin-top: 20px;
+  width: 80%;
+color:#b3aeb5;
+}
