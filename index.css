@@ -74,6 +74,10 @@ header {
   height: 65px;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
+  position:fixed;
+  top:0;
+  z-index:10;
+  
 }
 
 .logo {
@@ -101,24 +105,21 @@ header {
   color: white;
   display: block;
 }
-.lesson-wrapper{
-  padding-bottom: 80px;
+
+.lesson-wrapper {
   height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
   text-align: center;
-background-color: #f7f7f7;
 }
 
-
-/* Add CSS for heading */
-.heading{
+.heading {
   padding-top: 60px;
   padding-bottom: 30px;
-  color:#5f5d60;
+  color: #5f5d60;
 }
 
-
-/* Add CSS for <h2> tags inside heading */
-.heading > h2 {
+.heading h2 {
   font-weight: normal;
 }
 
@@ -127,28 +128,57 @@ background-color: #f7f7f7;
   width: 25%;
 }
 
-/* Add CSS for lesson-icon */
-.lesson-icon{
-position:relative;
-
+.lesson-icon {
+  position: relative;
 }
 
-
-/* Add CSS for <p> tags inside lesson-icon */
-.lesson-icon > p{
-position:absolute;
-width: 100%;
-top: 90px;
-color: white;
-
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
 }
 
-
-/* Add CSS for txt-contents */
-.txt-contents{
-  display:inline-block;
-  font-size: 15px;
-  margin-top: 20px;
+.txt-contents {
   width: 80%;
-color:#b3aeb5;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
 }
